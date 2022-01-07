@@ -1,10 +1,10 @@
 using System;
-using Jellyfin.Plugin.Template.Configuration;
+using Jellyfin.Plugin.Thunder.Configuration;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace Jellyfin.Plugin.Template
+namespace Jellyfin.Plugin.Thunder
 {
     /// <summary>
     /// The main plugin.
