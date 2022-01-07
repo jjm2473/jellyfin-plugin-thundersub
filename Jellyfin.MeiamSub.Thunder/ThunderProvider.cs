@@ -148,7 +148,7 @@ namespace Jellyfin.Plugin.Thunder
                                 Language = request.Language,
                                 TwoLetterISOLanguageName = request.TwoLetterISOLanguageName
                             })),
-                            Name = $"[MEIAMSUB] { Path.GetFileName(request.MediaPath) } | {request.TwoLetterISOLanguageName} | 迅雷",
+                            Name = $"[MEIAMSUB] { HttpUtility.UrlDecode(m.sname) } | {m.language} | 迅雷",
                             Author = "Meiam ",
                             CommunityRating = Convert.ToSingle(m.rate, CultureInfo.InvariantCulture),
                             ProviderName = "MeiamSub.Thunder",
